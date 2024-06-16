@@ -1,0 +1,46 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #e0e0e0;
+    margin: 0;
+    overflow: hidden; /* To ensure no scrollbars appear */
+}
+
+.weather-container {
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    width: 100vw; /* Full width of the viewport */
+    height: 100vh; /* Full height of the viewport */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 0; /* Remove border-radius to fit exactly */
+}
+
+h1 {
+    margin-bottom: 10px;
+    font-size: 48px; 
+}
+
+h2 {
+    font-size: 120px;
+    font-weight: 300;
+}
+
+h3 {
+    font-size: 60px;
+    font-weight: 500;
+    margin-top: 10px; 
+}
+
+p {
+    font-size: 24px;
+    font-weight: 400;
+    margin: 5px 0; 
+}

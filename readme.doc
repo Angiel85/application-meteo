@@ -1,0 +1,18 @@
+1. First visit https://openweathermap.org/
+and input your location to check coordinats
+
+2. Add name of your city name and Lattitude(lat) and Longitude(lon) into corresponding fields of configuration file - conf.json
+
+e.g.:
+"city": "Bordeaux",
+    "lat": 44.840,
+    "lon": -0.581   
+
+Bordeaux 44.840 -0.581
+Lyon 45.748 4.847
+Nice 43.70o 7.250
+Monpezat 43.500 -0.067
+
+3. Save conf.json
+
+4. Run web app with index.html
